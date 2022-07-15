@@ -51,12 +51,20 @@ function firstToUpperEachPhrase() {
     textArea.value = textEdited;
 }
 
+
 function invertLettersOrder (){
     const textEdited = textArea.value.split('').reverse().join('');
     textArea.value = textEdited;
 }
 
+
 function invertWordsOrder() {
     const textEdited = textArea.value.split(' ').reverse().join(' ');
+    textArea.value = textEdited;
+}
+
+
+function invertPhrasesOrder() {
+    const textEdited = textArea.value.split('.').reverse().join('.');
     textArea.value = textEdited;
 }

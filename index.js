@@ -55,3 +55,8 @@ function invertLettersOrder (){
     const textEdited = textArea.value.split('').reverse().join('');
     textArea.value = textEdited;
 }
+
+function invertWordsOrder() {
+    const textEdited = textArea.value.split(' ').reverse().join(' ');
+    textArea.value = textEdited;
+}

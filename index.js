@@ -50,3 +50,8 @@ function firstToUpperEachPhrase() {
     const textEdited = phrasesEdited.join('. ');
     textArea.value = textEdited;
 }
+
+function invertLettersOrder (){
+    const textEdited = textArea.value.split('').reverse().join('');
+    textArea.value = textEdited;
+}

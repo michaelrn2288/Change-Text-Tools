@@ -1,4 +1,38 @@
+*{
+    font-family:'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+}
+
+body {
+    background-color: rgb(238,247,255)
+}
+
+p{
+    font-size:1.2em;
+}
+
 #textArea {
     width: 75vw;
     height: 20vh;
+    margin-top:2em;
+    margin-bottom:1em;
+    font-size:1.5em;
+}
+
+#buttonsContainer{
+    display: flex;
+    flex-direction: row;
+    flex-wrap: wrap;
+    justify-content: flex-start;
+}
+
+button {
+    font-size:1.1em;
+    margin: 0.5em;
+    height:2em;
+    background-image: linear-gradient( rgb(210,225,255), rgb(160,200,245), rgb(210,225,255));
+    border-radius: 0.4em;
+}
+
+button:hover {
+    background-image: linear-gradient( rgb(170,200,225), rgb(100,150,215), rgb(170,200,225));
 }
